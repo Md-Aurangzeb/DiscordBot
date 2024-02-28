@@ -12,10 +12,10 @@ module.exports = {
                 await command.execute(interaction,client);
             } catch (error) {
                 console.log(error);
-                await interaction.reply({
-                    content : `something went worng while executing this command....`,
-                    ephemeral : true
-                })
+                // await interaction.reply({
+                //     content : `something went worng while executing this command....`,
+                //     ephemeral : true
+                // })
             }
         }
     },
